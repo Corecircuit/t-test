@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Treasure | Web Developer</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: #fff;
+      line-height: 1.6;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      background: #020617;
+      position: sticky;
+      top: 0;
+    }
+    header h1 { margin: 0; font-size: 1.2rem; }
+    nav a {
+      color: #fff;
+      margin-left: 20px;
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    .hero p { opacity: 0.8; }
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background: #22c55e;
+      color: #000;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+    .section {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #020617;
+      padding: 20px;
+      border-radius: 12px;
+      transition: transform 0.2s;
+    }
+    .card:hover { transform: translateY(-5px); }
+    .card h3 { margin-top: 0; }
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #020617;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Treasure Dev</h1>
+  <nav>
+    <a href="#projects">Projects</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>I build modern websites that get you customers</h2>
+  <p>Fast, responsive, and clean websites for businesses and startups</p>
+  <a href="https://wa.me/234XXXXXXXXXX" class="btn">Hire Me</a>
+</section>
+
+<section id="services" class="section">
+  <h2>Services</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Business Websites</h3>
+      <p>Professional websites for brands to attract customers.</p>
+    </div>
+    <div class="card">
+      <h3>Landing Pages</h3>
+      <p>High-converting pages for products and promotions.</p>
+    </div>
+    <div class="card">
+      <h3>Website Redesign</h3>
+      <p>Upgrade old or bad websites into modern designs.</p>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <h2>Projects</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Estate Website</h3>
+      <p>Real estate platform.</p>
+      <a href="https://t-estate.netlify.app" target="_blank">View</a>
+    </div>
+    <div class="card">
+      <h3>Travel Website</h3>
+      <p>Travel booking platform.</p>
+      <a href="https://t-waka.netlify.app" target="_blank">View</a>
+    </div>
+    <div class="card">
+      <h3>Betting UI</h3>
+      <p>Modern betting interface.</p>
+      <a href="https://t-bet.netlify.app" target="_blank">View</a>
+    </div>
+    <div class="card">
+      <h3>Luxury Brand UI</h3>
+      <p>High-end fashion concept.</p>
+      <a href="https://t-gucci.netlify.app" target="_blank">View</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Why Choose Me</h2>
+  <div class="grid">
+    <div class="card"><p>✔ Fast delivery</p></div>
+    <div class="card"><p>✔ Mobile-friendly design</p></div>
+    <div class="card"><p>✔ Clean modern UI</p></div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Testimonials</h2>
+  <div class="grid">
+    <div class="card"><p>"Very clean and professional work!"</p></div>
+    <div class="card"><p>"My business looks more legit now."</p></div>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <h2>Contact</h2>
+  <p>Ready to build your website?</p>
+  <a href="https://wa.me/08063587310" class="btn">Chat on WhatsApp</a>
+</section>
+
+<footer>
+  <p>© 2026 Treasure Dev | Built with 💻</p>
+</footer>
+
+</body>
+</html>
